@@ -116,6 +116,6 @@ Level: -\
 Fun: -
 
 ## Day 24
-Language: COBOL\
+Language: Lua\
 Level: -\
 Fun: -
