@@ -18,7 +18,7 @@ def main():
             for cube in cubes:
                 cube_data = cube.split(" ")
                 amount = int(cube_data[1])
-                cube_color = cube_data[2]
+                cube_color = cube_data[2].replace("\n", "")
                 if cube_color == "red" and amount > 12:
                     success = False
                     break
